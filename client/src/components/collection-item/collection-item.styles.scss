@@ -4,7 +4,6 @@
   flex-direction: column;
   height: 350px;
   align-items: center;
-  padding: 20px;
   position: relative;
 
   .image {
@@ -26,6 +25,7 @@
   &:hover {
     .image {
       opacity: 0.8;
+      display: flex;
     }
 
     .custom-button {
